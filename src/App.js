@@ -12,8 +12,7 @@ const App = () => {
 
 
       <Home/>
-      <Main/>
-      <Footer/>
+      
 
 
       </>
