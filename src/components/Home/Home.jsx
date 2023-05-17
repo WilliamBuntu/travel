@@ -1,6 +1,6 @@
 import React from 'react'
 import  './Home.css';
-import year from '../../assets/year.mkv'
+import Reel from '../../assets/Reel.mp4'
 import {GrLocation} from 'react-icons/gr'
 import {HiFilter} from 'react-icons/hi'
 import {FiFacebook} from 'react-icons/fi'
@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <section className='home'>
     <div className='overlay'></div>
-    <video src={year} muted autoPlay loop type = 'video/mkv'></video>
+    <video src={Reel} muted autoPlay loop type = 'video/mp4'></video>
 
       <div className='homeContent container'>
         <div className='textDiv'>
