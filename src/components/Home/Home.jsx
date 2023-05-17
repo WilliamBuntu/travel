@@ -1,6 +1,18 @@
 import React from 'react'
 import  './Home.css';
 import year from '../../assets/year.mkv'
+import {GrLocation} from 'react-icons/gr'
+import {HiFilter} from 'react-icons/hi'
+import {FiFacebook} from 'react-icons/fi'
+import {AiOutlineInstagram} from 'react-icons/ai'
+import {SiTripadvisor} from 'react-icons/si'
+import {BsListTask } from 'react-icons/bs'
+import {TbApps} from 'react-icons/tb'
+
+
+
+
+
 
 const Home = () => {
   return (
@@ -26,11 +38,56 @@ const Home = () => {
         Search your holiday:
         </label>
 
-        <div className='input flex'>
-         <input type='text' placeholder='Enter Name here'></input>
+                  <div className='input flex'>
+                  <input type='text' placeholder='Enter Name here...'></input>
+                  <GrLocation className = 'icon'/>
+                  </div>
         </div>
+
+        <div className='dateInput'>
+        <label htmlFor='date'> Select your date:
+
+        </label>
+
+                  <div className='input flex'>
+                  <input type='date' ></input>
+
+                  </div>
         </div>
+
+        <div className='priceInput'>
+            <div className='label_total flex'>
+              <label htmlFor='price'> Max Price:
+              </label>
+              <h1 className='total'> $5000</h1>
+            </div>
+
+              <div className='input flex'>
+              <input type='range' max= '5000' min='1000'></input>
+              </div>
         </div>
+
+
+         <div className='searchOptions flex'>
+         <HiFilter  className = 'icon'/>
+          <span>MORE FILTERS</span>
+         </div>
+
+        </div>
+
+            <div className='homeFooterIcons flex'>
+              <div className='rightIcons'>
+                  <FiFacebook  className = 'icon'/>
+                  <AiOutlineInstagram className = 'icon' />
+                  <SiTripadvisor className = 'icon' />
+              </div>
+
+              <div className='leftIcons'>
+                  <BsListTask  className = 'icon'/>
+                  <TbApps className = 'icon'/>
+              </div>
+            </div>
+
 
         </div>
 

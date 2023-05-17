@@ -12,8 +12,8 @@ const App = () => {
 
 
       <Home/>
-      
 
+      <Main/>
 
       </>
 
