@@ -13,10 +13,30 @@ const data = [
     location: 'New Zealand',
     grade: 'CALTURAL RELAX',
     fees: '$700',
-    description:  " The epitome of romance, Bora Bora is one of the best"
+    //description:  " The epitome of romance, Bora Bora is one of the best"
+     description: "The epitome of romance, Bora Bora is one of the best destinations for a relaxing cultural experience."
 
 
-  }
+  },
+  {
+    id: 2,
+    imgSrc: 'ab',
+    destTitle: 'Santorini',
+    location: 'Greece',
+    grade: 'SCENIC BEAUTY',
+    fees: '$1000',
+    description: "Famous for its stunning sunsets and white-washed buildings, Santorini offers breathtaking scenic beauty."
+  },
+
+   {
+    id: 3,
+    imgSrc: 'xy',
+    destTitle: 'Tokyo',
+    location: 'Japan',
+    grade: 'VIBRANT CITY',
+    fees: '$1200',
+    description: "Tokyo, the capital of Japan, is a vibrant city known for its blend of modern technology and rich traditional culture."
+  },
 ]
 
 
