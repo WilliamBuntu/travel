@@ -13,7 +13,7 @@ const data = [
     location: 'New Zealand',
     grade: 'CALTURAL RELAX',
     fees: '$700',
-    //description:  " The epitome of romance, Bora Bora is one of the best"
+    
      description: "The epitome of romance, Bora Bora is one of the best destinations for a relaxing cultural experience."
 
 
