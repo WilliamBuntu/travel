@@ -1,7 +1,9 @@
 import React from 'react'
 import './Main.css';
 import mn from '../../assets/mn.jpg'
-import {HiOutlineLocationMarker} from 'react-icons/hi'
+import mall from '../../assets/mall.jpg'
+import bt from '../../assets/bt.avif'
+import {HiOutlineClipboardCheck, HiOutlineLocationMarker} from 'react-icons/hi'
 
 
 
@@ -13,14 +15,14 @@ const data = [
     location: 'New Zealand',
     grade: 'CALTURAL RELAX',
     fees: '$700',
-    
+
      description: "The epitome of romance, Bora Bora is one of the best destinations for a relaxing cultural experience."
 
 
   },
   {
     id: 2,
-    imgSrc: 'ab',
+    imgSrc: mall,
     destTitle: 'Santorini',
     location: 'Greece',
     grade: 'SCENIC BEAUTY',
@@ -30,7 +32,7 @@ const data = [
 
    {
     id: 3,
-    imgSrc: 'xy',
+    imgSrc: bt,
     destTitle: 'Tokyo',
     location: 'Japan',
     grade: 'VIBRANT CITY',
@@ -91,6 +93,12 @@ const Main = () => {
                                  <div className='desc'>
                                      <p> {description}</p>
                                  </div>
+
+                                  <button className='btn flex'>
+                                      DETAILS <HiOutlineClipboardCheck className='icon' />
+                                  </button>
+
+
                         </div>
 
                       </div>
