@@ -23,6 +23,10 @@
 
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 a{
   text-decoration: none;
 }
@@ -84,4 +88,19 @@ input{
 }
 body{
   background: var(--bodycolr);
+}
+
+/* media queries */
+
+@media screen and (min-width: 1240px) {
+
+  .container{
+    width: 100% !important;
+    margin: auto !important;
+  }
+
+  .section{
+    padding: 6rem 2rem 4rem;
+  }
+
 }

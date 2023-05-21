@@ -3,6 +3,9 @@ import './Main.css';
 import mn from '../../assets/mn.jpg'
 import mall from '../../assets/mall.jpg'
 import bt from '../../assets/bt.avif'
+import pc from '../../assets/pc.jpg'
+import convet from '../../assets/convet.jpg'
+import car33 from '../../assets/car33.jpg'
 import {HiOutlineClipboardCheck, HiOutlineLocationMarker} from 'react-icons/hi'
 
 
@@ -35,6 +38,38 @@ const data = [
     imgSrc: bt,
     destTitle: 'Tokyo',
     location: 'Japan',
+    grade: 'VIBRANT CITY',
+    fees: '$1200',
+    description: "Tokyo, the capital of Japan, is a vibrant city known for its blend of modern technology and rich traditional culture."
+  },
+
+    {
+    id:4,
+    imgSrc:pc,
+    destTitle:'Hong-Kong',
+    location: 'China',
+    grade: 'CALTURAL RELAX',
+    fees: '$900',
+
+     description: "The epitome of romance, Bora Bora is one of the best destinations for a relaxing cultural experience."
+
+
+  },
+  {
+    id: 5,
+    imgSrc: convet,
+    destTitle: 'Kigali',
+    location: 'Rwanda',
+    grade: 'SCENIC BEAUTY',
+    fees: '$5000',
+    description: "Famous for its stunning sunsets and white-washed buildings, Santorini offers breathtaking scenic beauty."
+  },
+
+   {
+    id: 6,
+    imgSrc: car33,
+    destTitle: 'Seoul',
+    location: 'Korea',
     grade: 'VIBRANT CITY',
     fees: '$1200',
     description: "Tokyo, the capital of Japan, is a vibrant city known for its blend of modern technology and rich traditional culture."
