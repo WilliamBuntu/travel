@@ -4,6 +4,7 @@ import './Navbar.css';
 import {AiFillCloseCircle} from 'react-icons/ai'
 import {TbGridDots} from 'react-icons/tb'
 import { BsGlobeAsiaAustralia} from 'react-icons/bs';
+import { Link } from "react-router-dom";
 
 
 
@@ -39,6 +40,9 @@ const Navbar = () => {
        <li className='navItem'>
          <a href='/' className='navLink'>Home</a>
        </li>
+       <Link to="/Packages">  <li className='navItem'>
+         <a className='navLink'>Packeges</a>
+       </li> </Link>
 
         <li className='navItem'>
          <a href='/' className='navLink'>Packeges</a>
